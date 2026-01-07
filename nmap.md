@@ -29,6 +29,42 @@ NMAP:
 6. Nmap Host using TCP and UDP
 7. Using reverse dns lookup
 
+### Nmap basic Port Scanning
+1.TCP and UDP Ports
+2. TCP flags
+URG: Urgent flag indicates that the urgent pointer filed is significant. The urgent pointer indicates that the incoming data is urgent, and that a TCP segment with the URG flag set is processed immediately without consideration of having to wait on previously sent TCP segments.
+ACK: Acknowledgement flag indicates that the acknowledgement number is significant. It is used to acknowledge the receipt of a TCP segment.
+PSH: Push flag asking TCP to pass the data to the application promptly.
+RST: Reset flag is used to reset the connection. Another device, such as a firewall, might send it to tear a TCP connection. This flag is also used when data is sent to a host and there is no service on the receiving end to answer.
+SYN: Synchronize flag is used to initiate a TCP 3-way handshake and synchronize sequence numbers with the other host. The sequence number should be set randomly during TCP connection establishment.
+FIN: The sender has no more data to send.
+3. TCP connect Scan
+4. TCP syn Scan
+5. UDP scan
+6. Fine-Tuning Scope and Performance
+7. Idle/Zombie Scan
+
+### Nmap Advanced Port Scans
+1. TCP null scan, FIN scan and Xmas Scan
+1.1 Null Scan
+1.2 FIN Scan
+1.3 Xmas Scan
+2. TCP top maimon scan
+3. TCP ack, window and custom scan
+4. Spoofing and Decoy
+5. fragmented packets
+
+
+### Nmap Post Port scan
+1. Service detection
+2. Os detection and Traceroute
+3. Nmap Scripting Engine(NSE)
+4. Savings the output
+
+
+
+
+
 ### study about:
 1. TCP packet
 2. TCP ping
@@ -39,7 +75,13 @@ NMAP:
 7. Overall types of packets.
 8. ports and protocols
 9. local network and internetwork
-
+10. HTTP
+11. DNS
+12. SSH, open ssh
+13. Flags and tickets
+14. TCP flags
+15. TCP 3way handshake
+16. If the TCP segment has a size of 64, and -ff option is being used, how many IP fragments will you get?
 
 
 
